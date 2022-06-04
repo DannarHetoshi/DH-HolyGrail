@@ -41,6 +41,10 @@ End DOM */
     color:#FFFFFF;
 }
 
+.DH-HG-footer {
+    order: 4;
+}
+
 .DH-HG-content {
     background: #FFFFFF;
     order: 2;
