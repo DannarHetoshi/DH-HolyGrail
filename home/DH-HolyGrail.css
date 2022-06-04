@@ -9,8 +9,21 @@
 /* DOM 
 
 <body class="DH-HG-body">
-    <div class=
+    
+    <div class="DH-container">
 
+        <header class="DH-HG-header">
+
+        <main class="DH-HG-content">
+
+        <nav class="DH-HG-nav">
+
+        <ads class="DH-HG-ads">
+
+        <footer class="DH-HG-footer">
+    
+
+End DOM */
 /* Colors and Fonts */
 
 .DH-HG-body {
