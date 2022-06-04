@@ -1,0 +1,82 @@
+/* reset css */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* DOM 
+
+<body class="DH-HG-body">
+    <div class=
+
+/* Colors and Fonts */
+
+.DH-HG-body {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    padding: var(--space);
+
+    /* Design */
+    text-align: center;
+    font-size: 24px;
+    line-height: 3;;
+}
+
+.DH-HG-header, .DH-HG-footer {
+    background: #1b5881;
+}
+
+.DH-HG-content {
+    background: #FFFFFF;
+}
+
+.DH-HG-nav {
+    padding: 1em;
+}
+
+.DH-HG-nav,
+.DH-HG-ads {
+    background: #7fccff;
+}
+
+.DH-container {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media all and (min-width: 768px) {
+    .DH-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .DH-HG-header,
+    .DH-HG-footer {
+        width: 100%;
+    }
+
+    .DH-HG-content {
+        flex: 2;
+        order: 2;
+        min-height: 80%;
+    }
+    .DH-HG-nav {
+        order: 1;
+        flex: 1;
+    }
+    .DH-HG-ads {
+        flex: 1;
+        order: 3;
+    }
+
+ .DH-HG-footer {
+     order: 4;
+ }   
+}
