@@ -50,6 +50,8 @@ End DOM */
     background: #FFFFFF;
     order: 2;
     padding: .5em;
+    display: flex;
+    justify-content: space-around;
 }
 
 .DH-HG-nav {
@@ -64,6 +66,8 @@ End DOM */
 .DH-HG-ads {
     background: #7fccff;
     padding: .5em;
+    display: flex;
+    justify-content: space-around;
 }
 
 .DH-container {
@@ -89,7 +93,7 @@ ul {
     .DH-HG-content {
         flex: 2;
         order: 2;
-        min-height: 80%;
+        /* min-height: 80%; */
     }
     .DH-HG-nav {
         order: 1;
