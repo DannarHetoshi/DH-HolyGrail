@@ -43,15 +43,21 @@ End DOM */
 
 .DH-HG-content {
     background: #FFFFFF;
+    order: 2;
 }
 
 .DH-HG-nav {
-    padding: 1em;
+    order: 1;
+}
+
+.DH-HG-ads {
+    order: 3;
 }
 
 .DH-HG-nav,
 .DH-HG-ads {
     background: #7fccff;
+    padding: .5em;
 }
 
 .DH-container {
