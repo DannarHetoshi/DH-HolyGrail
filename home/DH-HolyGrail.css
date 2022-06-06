@@ -80,6 +80,10 @@ ul {
     list-style-type: none;
 }
 
+@media all and (max-width: 768px) {
+    
+}
+
 @media all and (min-width: 768px) {
     .DH-container {
         flex-direction: row;
